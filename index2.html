@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MY NOTES APP</title>
+    <link rel="stylesheet" href="style2.css">
+
+
+
+  </head>
+<body>
+  <button onclick="signout()" id ="signout">signout</button>
+<header>
+  <div class="container">
+   <marquee> <h1>Welcome to notes app!!</h1></marquee>
+    <form>
+      <input type="text" id="note-title" placeholder="note tittle">
+      <textarea type="" id="note-text" placeholder="note details"></textarea>
+    <input class="hidden" id="saveindex" style="display: none;">
+      <button id="add-btn">Add Note</button>
+     <button id="save-btn"  onclick="saveNote()"  style="display: none;">save notes</button>
+    
+    </form>
+  </div>
+</header>
+
+<section>
+  <div class="container">
+    <h2>Your Notes</h2>
+    <hr>
+    <div id="notes" class="notes">
+        
+
+    <div id="note">
+
+      
+      <h3 class="note-tittle">Hello notes</h3>
+      <p class="note-text">notes text area</p>
+      <p class="date"></p>
+      <p class="time"></p>
+      <button class="note-btn">Delete Note</button>
+      <button class="note-btn edit-btn">Edit note</button>
+      
+    
+    </div>  
+
+
+    </div>
+
+  </div>
+
+
+
+</section>
+
+
+`<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-auth.js"></script>
+
+
+
+<script>// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+var firebaseConfig = {
+apiKey: "AIzaSyA8-lY-775GMdTUPqxf_sFqvZuLqNqZyzU",
+authDomain: "my-notesapp-f7730.firebaseapp.com",
+projectId: "my-notesapp-f7730",
+storageBucket: "my-notesapp-f7730.appspot.com",
+messagingSenderId: "365473961630",
+appId: "1:365473961630:web:dec15298515e589c34cd8f",
+measurementId: "G-7CMHYVLT62"
+};
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+//firebase.analytics();
+const auth = firebase.auth();</script>
+<script src="index1.js"></script>
+<script src="index3.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+</html>

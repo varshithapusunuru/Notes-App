@@ -1,0 +1,60 @@
+body{
+    background-image: url("background.jpg");
+}
+h3{
+    color: darkgreen;
+    margin: 100px;
+    text-align: center;
+    
+}
+#email{
+    width: 30%;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+}
+#password{
+    width: 30%;
+    height: 40px;
+    display: block;
+    margin: 10 auto;
+    border: none;
+    outline: none;
+    
+}
+
+
+#signup{
+    background-color: #0ae981;
+    color: white;
+    border: none;
+    font-weight: bold;
+    padding: 15px 32px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 20px;
+    margin-left: 550px;
+}
+
+#signin{
+    background-color: #0ae981;
+    color: white;
+    border: none;
+    font-weight: bold;
+    padding: 15px 32px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 20px;
+    margin-left: 550px;
+}
+
+
+
+button :hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}

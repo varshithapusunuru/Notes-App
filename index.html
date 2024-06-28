@@ -1,0 +1,47 @@
+<html>
+
+<head>
+  <title>NOTES APP</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+
+  <h3 align="center">NOTES APP LOGIN</h3>
+  <div id="formcontainer">
+    <input type="email" placeholder="Youremail" id="email">
+    <input type="password" placeholder="Yourpassword" id="password">
+    <button onclick="signup()" id="signup">signup</button><br>
+    <button onclick="signin()" id="signin">signin</button><br>
+
+  </div>
+  </div>
+
+  `<!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-auth.js"></script>
+
+
+
+  <script>
+    var firebaseConfig = {
+      apiKey: "AIzaSyA8-lY-775GMdTUPqxf_sFqvZuLqNqZyzU",
+      authDomain: "my-notesapp-f7730.firebaseapp.com",
+      projectId: "my-notesapp-f7730",
+      storageBucket: "my-notesapp-f7730.appspot.com",
+      messagingSenderId: "365473961630",
+      appId: "1:365473961630:web:dec15298515e589c34cd8f",
+      measurementId: "G-7CMHYVLT62"
+    };
+
+    firebase.initializeApp(firebaseConfig);
+
+    const auth = firebase.auth();</script>
+  <script src="index1.js"></script>
+  <script src="index3.js"></script>
+
+
+
+</body>
+
+</html>
